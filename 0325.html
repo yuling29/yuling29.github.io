@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>first</title>
+	</head>
+	<body>
+		<h>個人資料</h>
+		<form name="login" action="http://httpbin.org/get" method=get>
+			E-mail : <input name="email"type="email"><br>
+			個人網站 : <a href="file:///C:/Users/hwlin/AppData/Local/Temp/Temp1_408411147_0311.zip/210311.html" target="_blank">個人網站超連結</a><br>
+			連絡電話 : <input name="tel"type="tel"><br>
+			行動電話帳單 : <input name="bill"type="tell"><br>
+			對本站的意見 : <br>
+				<textarea name="comment"rows="5"cols="25"></textarea></br>
+
+
+			日期時間 : <input name="setdatetime"type="datetime-local">
+			<hr align="left" width=30%>
+			喜歡的色彩 : <input type="color" name="color"><br>
+			對本站的評分 : 
+				不喜歡<input name="score" type="range" min="1" max="5">喜歡<br>
+			請問您想參加的行程 : <select name="tour">
+				<optgroup label="國內">
+				<option value="1">臺南
+				<option value="2">臺東
+				</optgroup>
+				<optgroup label="國外">
+				<option value="3">韓國
+				<option value="4">日本
+				</optgroup>
+				</select>
+			<hr align="left" width=30%>
+			請問您喜歡的食物 : <br>
+				<select name="food" size="5" multiple>
+				<option value="1">拉麵
+				<option value="2">義大利麵
+				<option value="3">烤肉
+				<option value="4">甜食
+				<option value="5">酸辣粉
+				<option value="6">麻辣燙
+				<option value="7">火鍋
+				</select><br><br>
+			<input type="reset" value="清除重填">
+			<input type="submit" value="填完送出">
+		</form>
+	</body>
+</html>
